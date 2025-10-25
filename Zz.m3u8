@@ -1,0 +1,20 @@
+#EXTM3U url-tvg="http://iptvx.one/EPG_LITE"
+
+#EXTINF:-1 tvg-id="ntv-serial" group-title="Эфирные", НТВ Сериал HD
+https://cdn.ntv.ru/th_serial/tracks-v1a1/playlist.m3u8
+#EXTINF:-1 group-title="Равное" tvg-id="ntv-xit",НТВ Хит HD
+https://cdn.ntv.ru/th_hit/tracks-v1a1/playlist.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Равное" tvg-id="russky-roman",Русский роман HD
+http://0onujpvc.otttv.pw/iptv/FGF765ENL4M8QS/2076/index.m3u8
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные" tvg-id="otr-pl2",ОТР (+2)
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.46
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_OTR_EKT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные" tvg-id="rossia-24",Россия 24 (+2)
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.46
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_ROSSIA24_EKT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные" tvg-id="otv-eburg",ОТВ Екатеринбург HD
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.46
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_EKT/variant.m3u8?version=2
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные" tvg-id="tagil-tv-24",Тагил ТВ
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.46
+http://dmitry-tv.ddns.net/hls/zabava/region/NTAG/CH_TAGILTV.m3u8
